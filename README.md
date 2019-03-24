@@ -1,4 +1,4 @@
-
+```
   _______                        _     _____           _                        
  |__   __|                      | |   |_   _|         | |                       
     | | ___  _ __ ___   ___ __ _| |_    | |  _ __  ___| |_ __ _ _ __   ___ ___  
@@ -18,7 +18,7 @@
   / /_ | |_| | |_| |
  |____(_)___(_)___/ 
                     
-                    												                                                                     
+   ```                 												                                                                     
 
 Version 2.0.0
 =====================================================================================================================
@@ -70,7 +70,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
    The output from the usage script, should yield something like this:
 
-   schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+   xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
    $ usage.cmd
 
       Tomcat Instance Generation Utility 2.0.0
@@ -105,7 +105,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
      Processing Completed Successfully.
 
-   schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+   xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
    $
 
 
@@ -114,7 +114,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
    + generate[.cmd|.sh] : Will Generate a MyContainers directory using the examples/yaml/Generate-MyContainers.yaml
                         : It will produce the following Directory hierarchy:
                         
-                        schenkje@65J0Q72 C:\Users\schenkje\MyWorkspace\MyContainers_1537491742317
+                        xxxxxx@yyyyyy C:\...\MyContainers_1537491742317
                         $ tree
                         Folder PATH listing for volume Windows
                         Volume serial number is 4A4F-0261
@@ -222,7 +222,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
                        : It will produce the following output:
 
                                   
-                       schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+                       xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
                        $ pull.cmd
 
                           Tomcat Instance Generation Utility 2.0.0
@@ -239,7 +239,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
                          Processing Completed Successfully.
 
-                       schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+                       xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
                        $
 
       + upgradeKit[.cmd|.sh] : Will produce an upgrade kit that will allow an upgrade of an existing Tomcat instance
@@ -251,7 +251,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
                              : as it is assumed the destination Tmcat Instance to be upgraded resides on a linux os.
 
 
-                             schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+                             xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
                              $ upgradeKit.cmd
 
                                 Tomcat Instance Generation Utility 2.0.0
@@ -277,7 +277,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
                                Validating Tomcat Version Archive ...
 
-                               Validated Downloaded Archive: C:\Users\schenkje\AppData\Local\Temp\v8.5.34_UPGRADE_KIT_1538100074812\apache-tomcat-8.5.34.zip, Completed ...
+                               Validated Downloaded Archive: ....\AppData\Local\Temp\v8.5.34_UPGRADE_KIT_1538100074812\apache-tomcat-8.5.34.zip, Completed ...
 
                                   + File Size: '10216736', Correct.   Computed CheckSum:'149d7050df86bb31d9764cdc8d2e73a35bd5543d'.
 
@@ -287,13 +287,13 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
                                Processing Completed Successfully.
 
-                             schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\examples\bin
+                             xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
 
 
                              : The folder structure produce for example will be:
 
 
-                             schenkje@65J0Q72 C:\Users\schenkje\AppData\Local\Temp\v8.5.34_UPGRADE_KIT_1538100074812
+                             ...\AppData\Local\Temp\v8.5.34_UPGRADE_KIT_1538100074812
                              $ tree
                              Folder PATH listing for volume Windows
                              Volume serial number is 4A4F-0261
@@ -320,7 +320,7 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
                                  |   └───sbin
                                  tc_upgrade_to_v8.5.xx.sh
 
-                             schenkje@65J0Q72 C:\Users\schenkje\AppData\Local\Temp\v8.5.34_UPGRADE_KIT_1538100074812
+                             xxxxxx@yyyyyy C:\...\v8.5.34_UPGRADE_KIT_1538100074812
                              $
 
                              : You will also have the complete Apache Tomcat archive available, which was downloaded
