@@ -35,8 +35,8 @@ ${JVM_OPTS}
 
 #
 # Set Global Instance Properties
-CATALINA_OPTS="${CATALINA_OPTS} -Dcom.moda.tomcat.env=\"BASE ${TOMCAT_INSTANCE_NAME}\""
-CATALINA_OPTS="${CATALINA_OPTS} -Dcom.moda.tomcat.instance.name=${TOMCAT_INSTANCE_NAME}"
+CATALINA_OPTS="${CATALINA_OPTS} -Dinfra.tomcat.env=\"BASE ${TOMCAT_INSTANCE_NAME}\""
+CATALINA_OPTS="${CATALINA_OPTS} -Dinfra.tomcat.instance.name=${TOMCAT_INSTANCE_NAME}"
 ${INSTANCE_PROPERTIES}
 
 #

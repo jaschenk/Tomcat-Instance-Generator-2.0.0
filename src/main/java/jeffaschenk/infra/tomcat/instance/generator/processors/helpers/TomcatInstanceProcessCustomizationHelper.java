@@ -1,7 +1,7 @@
 package jeffaschenk.infra.tomcat.instance.generator.processors.helpers;
 
 import jeffaschenk.infra.tomcat.instance.generator.knowledgebase.DefaultDefinitions;
-import com.moda.infra.tomcat.instance.generator.model.*;
+import jeffaschenk.infra.tomcat.instance.generator.model.*;
 import jeffaschenk.infra.tomcat.instance.generator.util.Color;
 import jeffaschenk.infra.tomcat.instance.generator.util.ConsoleOutput;
 import jeffaschenk.infra.tomcat.instance.generator.util.FileUtility;

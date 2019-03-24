@@ -40,8 +40,7 @@ request.setAttribute("tomcatUrl", "http://tomcat.apache.org/");
                 <br class="separator" />
             </div>
             <div id="asf-box">
-				<img src="moda.png" alt=" Health Web Application Network" />
-                <h1><%=System.getProperty("com.moda.tomcat.env","")%>&nbsp;&raquo;&nbsp;${pageContext.servletContext.serverInfo}</h1>	
+                <h1><%=System.getProperty("infra.tomcat.env","")%>&nbsp;&raquo;&nbsp;${pageContext.servletContext.serverInfo}</h1>
             <div id="upper" class="curved container">
                 <div id="congrats" class="curved container">
                     <h2>If you're seeing this, you've successfully installed Tomcat. Congratulations!</h2>

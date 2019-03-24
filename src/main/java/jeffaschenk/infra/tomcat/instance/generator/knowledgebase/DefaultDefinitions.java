@@ -302,7 +302,7 @@ public final class DefaultDefinitions {
     private static final List<InstanceProperty> DEFAULT_INSTANCE_PROPERTY_ROWS = new ArrayList<>();
     static {
         ADD_DEFAULT_VALUE_TO_PROPERTIES(DEFAULT_INSTANCE_PROPERTY_ROWS,
-                "com.moda.welcome.message", "\"Hello to Tomcat Generation Utility\"");
+                "infra.welcome.message", "\"Hello to Tomcat Generation Utility\"");
     }
 
     /**
@@ -383,7 +383,7 @@ public final class DefaultDefinitions {
     /**
      * Additional 'webapps' for ROOT Application to be Written ...
      */
-    public static final String[] AVAILABLE_ROOT_WEBAPP_FILES = {"error.jsp", "error-404.jsp", "index.jsp", "moda.png"};
+    public static final String[] AVAILABLE_ROOT_WEBAPP_FILES = {"error.jsp", "error-404.jsp", "index.jsp"};
 
     /**
      * 'webapps' which should be purged ...

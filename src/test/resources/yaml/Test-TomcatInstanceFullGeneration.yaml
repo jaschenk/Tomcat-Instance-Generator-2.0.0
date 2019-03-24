@@ -14,7 +14,7 @@ instanceManagementProperties:
 - {propertyName: '# com.sun.management.jmxremote.ssl', propertyValue: 'false'}
 - {propertyName: '# com.sun.management.jmxremote.authenticate', propertyValue: 'false'}
 instanceProperties:
-- {propertyName: com.moda.welcome.message, propertyValue: '"Hello to Tomcat Generation
+- {propertyName: infra.welcome.message, propertyValue: '"Hello to Tomcat Generation
     Utility"'}
 jvmOptionXmx: 2g
 tomcatVersion: v8.5
@@ -28,35 +28,35 @@ instanceUUID: 0c4cf885-11ca-4b5e-8df0-66769626f841
 compressed: false
 jvmOptionXXMaxMetaspaceSize: 768m
 instancePorts:
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc01, ajpPort: 8091, debugPort: 9041,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc01, ajpPort: 8091, debugPort: 9041,
                                                                   httpPort: 8081, httpsPort: 443, instanceFolder: null, jmxPort: 9001,
                                                                   mcatRestartAgentPort: 48081, rmi1Port: 9021, rmi2Port: 9031, shutdownPort: 8051,
                                                                   snmpPort: 9011}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc02, ajpPort: 8092, debugPort: 9042,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc02, ajpPort: 8092, debugPort: 9042,
                                                                   httpPort: 8082, httpsPort: 443, instanceFolder: null, jmxPort: 9002,
                                                                   mcatRestartAgentPort: 48082, rmi1Port: 9022, rmi2Port: 9032, shutdownPort: 8052,
                                                                   snmpPort: 9012}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc03, ajpPort: 8093, debugPort: 9043,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc03, ajpPort: 8093, debugPort: 9043,
                                                                   httpPort: 8083, httpsPort: 443, instanceFolder: null, jmxPort: 9003,
                                                                   mcatRestartAgentPort: 48083, rmi1Port: 9023, rmi2Port: 9033, shutdownPort: 8053,
                                                                   snmpPort: 9013}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc04, ajpPort: 8094, debugPort: 9044,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc04, ajpPort: 8094, debugPort: 9044,
                                                                   httpPort: 8084, httpsPort: 443, instanceFolder: null, jmxPort: 9004,
                                                                   mcatRestartAgentPort: 48084, rmi1Port: 9024, rmi2Port: 9034, shutdownPort: 8054,
                                                                   snmpPort: 9014}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc05, ajpPort: 8095, debugPort: 9045,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc05, ajpPort: 8095, debugPort: 9045,
                                                                   httpPort: 8085, httpsPort: 443, instanceFolder: null, jmxPort: 9005,
                                                                   mcatRestartAgentPort: 48085, rmi1Port: 9025, rmi2Port: 9035, shutdownPort: 8055,
                                                                   snmpPort: 9015}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc06, ajpPort: 8096, debugPort: 9046,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc06, ajpPort: 8096, debugPort: 9046,
                                                                   httpPort: 8086, httpsPort: 443, instanceFolder: null, jmxPort: 9006,
                                                                   mcatRestartAgentPort: 48086, rmi1Port: 9026, rmi2Port: 9036, shutdownPort: 8056,
                                                                   snmpPort: 9016}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc07, ajpPort: 8097, debugPort: 9047,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc07, ajpPort: 8097, debugPort: 9047,
                                                                   httpPort: 8087, httpsPort: 443, instanceFolder: null, jmxPort: 9007,
                                                                   mcatRestartAgentPort: 48087, rmi1Port: 9027, rmi2Port: 9037, shutdownPort: 8057,
                                                                   snmpPort: 9017}
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc08, ajpPort: 8098, debugPort: 9048,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {instanceName: tc08, ajpPort: 8098, debugPort: 9048,
                                                                   httpPort: 8088, httpsPort: 443, instanceFolder: null, jmxPort: 9008,
                                                                   mcatRestartAgentPort: 48088, rmi1Port: 9028, rmi2Port: 9038, shutdownPort: 8058,
                                                                   snmpPort: 9018}

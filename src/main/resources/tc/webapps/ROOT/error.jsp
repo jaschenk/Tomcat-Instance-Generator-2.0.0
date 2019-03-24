@@ -3,7 +3,7 @@
 <html> 
     <body>
 	<%
-    String redirectURL = "https://www.mo.modahealth.com/error_s/";
+    String redirectURL = "https://www.somedomain.com/error_s/";
     response.sendRedirect(redirectURL);
 	%>
 	</body> 

@@ -56,7 +56,7 @@
 			  		
 
 	
-	<!-- MODA DATA RESOURCES
+	<!-- ATA RESOURCES
 	     Specify the Shared Data Sources as Resources here ...
 	-->
 
@@ -65,10 +65,10 @@
 	<Resource name="jdbc/facetsJNDI"
             auth="Container"
             type="javax.sql.DataSource"
-            username="webuserx"
+            username="dbuser"
             password="***********"
             driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-            url="jdbc:sqlserver://sql14-00.pdx.odshp.com:49734;instanceName=FACETSDEV03;databaseName=facets"
+            url="jdbc:sqlserver://sql.com:49734;instanceName=someinstance;databaseName=somedbname"
             maxTotal="8"
             maxIdle="4"
 			defaultTransactionIsolation="READ_COMMITTED" 

@@ -3,7 +3,7 @@
 #
 destinationFolder: C:\Users\schenkje\MyWorkspace
 instanceProperties:
-- {propertyName: com.moda.welcome.message, propertyValue: '"Hello to Tomcat Generation
+- {propertyName: infra.welcome.message, propertyValue: '"Hello to Tomcat Generation
     Utility"'}
 jvmOptionXmx: 2g
 tomcatVersion: v8.5
@@ -20,7 +20,7 @@ instanceUUID: 0c4cf885-11ca-4b5e-8df0-66769626f841
 compressed: false
 jvmOptionXXMaxMetaspaceSize: 2g
 instancePorts:
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8091, debugPort: 1024,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8091, debugPort: 1024,
                                                                   httpPort: 1024, httpsPort: 443, instanceFolder: null, instanceName: tc01, jmxPort: 9001,
                                                                   mcatRestartAgentPort: 48081, rmi1Port: 9021, rmi2Port: 9031, shutdownPort: 8051,
                                                                   snmpPort: 9011}

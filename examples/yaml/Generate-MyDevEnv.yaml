@@ -17,7 +17,7 @@ instanceManagementProperties:
 - {propertyName: '# com.sun.management.jmxremote.ssl', propertyValue: 'false'}
 - {propertyName: '# com.sun.management.jmxremote.authenticate', propertyValue: 'false'}
 instanceProperties:
-- {propertyName: com.moda.welcome.message, propertyValue: '"Welcome to MyDevEnv ..."'}
+- {propertyName: infra.welcome.message, propertyValue: '"Welcome to MyDevEnv ..."'}
 jvmOptionXmx: 2g
 tomcatVersion: v8.5
 jvmOptionXms: 2g
@@ -26,7 +26,7 @@ jvmOptions: [-server]
 compressed: true
 jvmOptionXXMaxMetaspaceSize: 768m
 instancePorts:
-- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8091, debugPort: 9041,
+- !!jeffaschenk.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8091, debugPort: 9041,
                                                                   httpPort: 8081, httpsPort: 443, instanceFolder: null, instanceName: tc01, jmxPort: 9001,
                                                                   mcatRestartAgentPort: 48081, rmi1Port: 9021, rmi2Port: 9031, shutdownPort: 8051,
                                                                   snmpPort: 9011}

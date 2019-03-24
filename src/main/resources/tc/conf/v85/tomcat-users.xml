@@ -55,7 +55,7 @@
   <role rolename="manager-jmx"/>
   <role rolename="manager-status"/>
 
-  <user username="tomcat" password="tcmoda" roles="tomcat,manager-gui"/>
-  <user username="deployer" password="tcmoda" roles="tomcat,manager-script,manager-status,manager-jmx"/>
+  <user username="tomcat" password="tcyoda" roles="tomcat,manager-gui"/>
+  <user username="deployer" password="tcyoda" roles="tomcat,manager-script,manager-status,manager-jmx"/>
 
 </tomcat-users>
