@@ -1,0 +1,11 @@
+destinationFolder: C:\Temp
+instanceName: My-Minimal-Configuration
+instanceManagement: false
+tomcatVersion: v8.5
+jvmOptionXmx: 2g
+jvmOptionXms: 2g
+jvmOptionXss: 256m
+jvmOptionXXMaxMetaspaceSize: 768m
+jvmOptions: [-server]
+environmentName: DEV
+compressed: false

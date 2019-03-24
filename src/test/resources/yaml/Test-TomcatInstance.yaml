@@ -1,0 +1,41 @@
+destinationFolder: C:\Users\schenkje\MyWorkspace
+instanceManagementProperties:
+- {propertyName: com.managecat.controller.url, propertyValue: 'http://rh-tst-01:8080/controller/'}
+- {propertyName: com.managecat.collector.url, propertyValue: 'http://rh-tst-01:8080/collector/'}
+- {propertyName: com.managecat.console.agent.groupname, propertyValue: Development}
+- {propertyName: com.managecat.console.agent.servername, propertyValue: '${TOMCAT_INSTANCE_NAME}'}
+- {propertyName: com.managecat.console.agent.hostname, propertyValue: '${TOMCAT_INSTANCE_HOSTNAME}'}
+- {propertyName: com.managecat.console.agent.port, propertyValue: '${TOMCAT_PRIMARY_PORT}'}
+- {propertyName: com.managecat.console.agent.contextname, propertyValue: console}
+- {propertyName: com.managecat.console.agent.secure, propertyValue: 'false'}
+- {propertyName: com.managecat.console.agent.accountkey, propertyValue: 70f90d8cf528cf0d472ec5c323927586}
+- {propertyName: '# com.sun.management.jmxremote', propertyValue: ''}
+- {propertyName: '# com.sun.management.jmxremote.port', propertyValue: '65420'}
+- {propertyName: '# com.sun.management.jmxremote.ssl', propertyValue: 'false'}
+- {propertyName: '# com.sun.management.jmxremote.authenticate', propertyValue: 'false'}
+instanceProperties:
+- {propertyName: com.moda.welcome.message, propertyValue: '"Hello to Tomcat Generation
+    Utility"'}
+jvmOptionXmx: 2g
+tomcatVersion: v8.5
+keystoreCredentials: ''
+instanceName: Test-FooBar-999
+protocolSecurePort: org.apache.coyote.http11.Http11NioProtocol
+keystoreSourceFilename: ''
+jvmOptionXms: 2g
+instanceManagement: true
+jvmOptionXss: 256m
+jvmOptions: [-server]
+environmentName: DEV
+instanceUUID: 0c4cf885-11ca-4b5e-8df0-66769626f841
+compressed: false
+jvmOptionXXMaxMetaspaceSize: 768m
+instancePorts:
+- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8091, debugPort: 9041,
+                                                                  httpPort: 8081, httpsPort: 443, instanceFolder: null, instanceName: tc01, jmxPort: 9001,
+                                                                  mcatRestartAgentPort: 48081, rmi1Port: 9021, rmi2Port: 9031, shutdownPort: 8051,
+                                                                  snmpPort: 9011}
+- !!com.moda.infra.tomcat.instance.generator.model.InstancePorts {ajpPort: 8092, debugPort: 9042,
+                                                                  httpPort: 8082, httpsPort: 443, instanceFolder: null, instanceName: tc02, jmxPort: 9002,
+                                                                  mcatRestartAgentPort: 48082, rmi1Port: 9022, rmi2Port: 9032, shutdownPort: 8052,
+                                                                  snmpPort: 9012}

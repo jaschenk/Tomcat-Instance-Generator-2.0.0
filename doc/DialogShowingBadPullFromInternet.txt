@@ -1,0 +1,38 @@
+ bin\generate.cmd
+
+   Tomcat Instance Generation Utility 2.0.0
+  ---------------------------------------------
+
+
+  Processing YAML Instance Generation File: C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\src\test\resources\yaml\Test-TomcatInstance.yaml ...
+
+  Tomcat Instance YAML Validation Successful.
+  Using URL: http://apache.cs.utah.edu/tomcat Obtained Response Code: 200
+
+  Tomcat Version Selected: 8.5.34, Starting generation process ...
+
+  Generating Tomcat Instance Test-FooBar-999 based upon Version: 8.5.34
+
+  Using Work Destination Folder: C:\Users\schenkje\MyWorkspace\Test-FooBar-999_1537192232209
+
+  Pulling Tomcat Version from Apache Mirror ...
+
+  Using URL for Downloading Artifact: http://apache.cs.utah.edu/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.zip
+
+  Successfully Pulled Tomcat Version from Apache Mirror ...
+
+  Validating Tomcat Version Archive ...
+
+  Downloaded Archive: C:\Users\schenkje\MyWorkspace\Test-FooBar-999_1537192232209\apache-tomcat-8.5.34.zip, File Size Not Correct, unable to continue!
+
+     - File Size: '510824', Invalid, should have been: '10216736'.
+
+  Issue Occurred during validating Tomcat Archive pulled from Internet!
+
+  Issue Processing Instance Generation File: C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator\src\test\resources\yaml\Test-TomcatInstance.yaml, review configuration!
+
+  Final Overall Processing Results: Processed: 1, Successful: 0, Failures: 1
+
+  Warning: Processing Completed, however, Issues were detected, please check generation Log!
+
+schenkje@65J0Q72 C:\Users\schenkje\MyTomcatWorkSpace\TomcatInstanceGenerator

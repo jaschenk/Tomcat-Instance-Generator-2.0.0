@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+	<Appenders>
+
+		<!-- Simple Console Appender -->
+		<Console name="STDOUT" follow="true" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy/MM/dd HH:mm:ss.SSS} [%t] %highlight{%level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue} - %msg%n %-5level %logger{36} - %msg%n"/>
+		</Console>
+
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="STDOUT"/>
+		</Root>
+	</Loggers>
+</Configuration>
