@@ -107,6 +107,8 @@ Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
 
    xxxxxx@yyyyyy C:\...\TomcatInstanceGenerator\examples\bin
    $
+   
+   ![usage](./doc/TomcatInstanceGenerator-Usage.PNG)
 
 
    Each of the scripts demonstrate the above functions:
