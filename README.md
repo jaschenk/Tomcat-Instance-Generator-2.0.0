@@ -22,7 +22,7 @@
 
 Version 2.0.0
 =====================================================================================================================
-Jeff.Schenk@modahealth.com / jeffaschenk@gmail.com
+jeffaschenk@gmail.com
 
 **Tomcat Instance Generator**
 
